@@ -1,8 +1,7 @@
 import streamlit as st
 
 def app(wine_df):
-    st.write("Welcome to the Red Wine Classification App!This interactive platform leverages machine learning models like Decision Tree, KNN, and Random Forest to predict the quality of red wine based on its physicochemical properties. Explore the dataset, train models, visualize results, and make predictions—all in one place!
-    Navigate through the app to uncover insights and understand what makes a wine exceptional. Cheers to data science! 🍷")
+    st.write("Welcome to the Red Wine Classification App!This interactive platform leverages machine learning models like Decision Tree, KNN, and Random Forest to predict the quality of red wine based on its physicochemical properties. Explore the dataset, train models, visualize results, and make predictions—all in one place!Navigate through the app to uncover insights and understand what makes a wine exceptional. Cheers to data science!")
     with st.expander('View Database'):
         st.dataframe(wine_df)
     st.subheader('Columns description')
