@@ -67,4 +67,4 @@ The application provides an intuitive interface for users to interact with the m
    git clone [https://github.com/eshaan-james/O.git](https://github.com/eshaan-james/Orinson-Machine-Learning)
    cd red-wine-classification
 
-**Note :-** This project also contain a collab file for easier understanding of ML project keeping aside the streamlit build.
+**Note :-** This project also contain a jupyter file for easier understanding of ML project keeping aside the streamlit build.
