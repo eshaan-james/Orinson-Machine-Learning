@@ -18,7 +18,7 @@ from sklearn.ensemble import RandomForestClassifier , GradientBoostingClassifier
 
 def app(wine_df):
     warnings.filterwarnings('ignore')
-    st.title("Visualise the Diabetes Prediction Web app ")
+    st.title("Visualise the Wine Quality Prediction Web app ")
 
     if st.checkbox("Show the correlation heatmap"):
         st.subheader("Correlation Heatmap")
@@ -29,7 +29,7 @@ def app(wine_df):
         st.pyplot()
 
     st.subheader("Predictor Selection")
-    plot_select = st.selectbox("Select the Classifier to Visualise the Diabetes Prediction:",
+    plot_select = st.selectbox("Select the Classifier to Visualise the Wine Quality Prediction:",
                                ('Decision Tree Classifier', "Random Forest Classifier", 'K Nearest Neighbor Classifier'))
 
     if plot_select == 'Decision Tree Classifier':
